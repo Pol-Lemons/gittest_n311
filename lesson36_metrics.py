@@ -31,7 +31,7 @@ class TestPriceErrors(unittest.TestCase):
             [8000,23000,30000]
         )
 
-        self.assertEqual(signed,[2000,-3000,1])
+        self.assertEqual(signed,[2000,-3000,0])
         self.assertEqual(absolute,[2000,3000,0])
 
     def test_perfect_predictions(self):
